@@ -1,0 +1,141 @@
+﻿/** 
+* Table of Contents
+* 
+* 1.0 - Style Switcher
+* -----------------------------------------------------------------------------
+*/
+
+/**
+* 1.0 Style Switcher 
+*
+* setting up the skin for template style-switcher
+* -----------------------------------------------------------------------------
+*/
+#style-switcher {
+    font-family: Verdana;
+    position: fixed;
+    z-index: 888888;
+    top: 15%;
+    max-width: 290px;
+    -moz-transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+
+#style-switcher.push {
+    left: -210px;
+}
+
+#style-switcher.pull {
+    left: -1px;
+}
+
+#style-switcher .switcher-container {
+    text-align: center;
+    float: left;
+    background: rgba(238, 238, 238, 0.80);
+    padding: 10px 0;
+    max-width: 290px;
+    overflow: hidden;
+
+}
+
+#style-switcher .switcher-container .rows {
+    padding: 5px 10px 0 10px;
+}
+
+#style-switcher .switcher-container .rows + .rows::before {
+    content: "";
+    height: 1px;
+    width: 80%;
+    background-color: #dddddd;
+    display: block;
+    margin: 8px auto;
+}
+
+#style-switcher .styles label {
+    text-align: left;
+}
+
+#style-switcher label.active {
+    background: #000000;
+    color: #ffffff;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+#style-switcher .styles label span.fa {
+    margin-right: 10px;
+    min-width: 24px;
+    text-align: center;
+}
+
+#style-switcher .rows.skins .btn {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border-color: none;
+    border-radius: 100%;
+}
+
+#style-switcher .skins #btn-skin1 {
+    background: #00c3c4;
+}
+
+#style-switcher .skins #btn-skin2 {
+    background: #3f00dd;
+}
+
+#style-switcher .skins #btn-skin3 {
+    background: #54c300;
+}
+
+#style-switcher .skins #btn-skin4 {
+    background: #da0025;
+}
+
+#style-switcher .skins #btn-skin5 {
+    background: #feab07;
+}
+
+    #style-switcher .skins .active {
+        border: 1px solid #000;
+    }
+
+#style-switcher a.puller {
+    color: #000000;
+    font-size: 28px;
+    background: rgba(238, 238, 238, 0.80);
+    position: absolute;
+    top: 50%;
+    margin-left: -1px;
+    margin-top: -20px;
+    right: -50px;
+    padding: 5px 10px 5px 0px;
+    display: block;
+    width: 50px;
+    text-align: right;
+}
+
+#style-switcher a.puller:hover, #style-switcher a.puller:focus {
+    text-decoration: none;
+}
+
+#style-switcher .text-muted {
+    color: #333333;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#style-switcher #btn-reset {
+    width: 100%;
+}
+
+
+@media all and (max-width: 480px) {
+    #style-switcher .hidden-xxs {
+        display: none !important;
+    }
+}

@@ -1,0 +1,533 @@
+﻿/** 
+* Table of Contents
+* 
+* 1.0 - Basic Structure
+* 2.0 - Navigation
+* 3.0 - Backgrounds
+* 4.0 - Logo
+* 5.0 - Spacing
+* 6.0 - Headings
+* 7.0 - Canvas
+* 8.0 - Sections
+* 9.0 - Twitter Feed Slider
+* 10.0 - Social Icons
+* 11.0 - Forms
+* 12.0 - Slider Effects
+* 13.0 - Preloader
+* -----------------------------------------------------------------------------
+*/
+
+/**
+* 1.0 Basic Structure 
+*
+* setting body and default hyperlink styles
+* -----------------------------------------------------------------------------
+*/
+body {
+    color: #fff;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 28px;
+    padding: 0;
+    margin: 0;
+}
+
+a, a:hover, a:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+/** 
+* 2.0 Navigation
+* 
+* responsive navigation styles
+* -----------------------------------------------------------------------------
+*/
+.nav-pills > li + li {
+    margin: 0;
+}
+
+#nav-scroll > li.active > a {
+    color: #fff;
+}
+
+#nav-scroll > li > a {
+    color: #fff;
+    transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    min-width: 60px;
+}
+
+.navbar-toggle {
+    z-index: 9998;
+    position: absolute;
+    right: 0px;
+}
+
+    .navbar-toggle .icon-bar {
+        background-color: #fff;
+        height: 4px;
+        width: 26px;
+    }
+
+.nav-fixed-right {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 9998;
+    float: right;
+    background: #111;
+    width: 60px;
+}
+
+#nav-scroll.navbar-collapse {
+    padding: 0px;
+    z-index: 9998;
+}
+
+.nav-fixed-right.nav-pills > li {
+    float: none;
+    text-align: center;
+}
+
+.nav-fixed-right.nav-pills {
+    max-height: none;
+    overflow: hidden;
+}
+
+#nav-slider {
+    position: relative;
+    left: 0;
+}
+
+@media (min-width : 992px) {
+    .nav-fixed-right {
+        position: fixed;
+        right: 0px;
+        top: 0;
+        z-index: 9998;
+        float: none;
+        background: none;
+        width: auto;
+    }
+
+        .nav-fixed-right.nav-pills > li {
+            float: left;
+        }
+}
+
+/** 
+* 3.0 Backgrounds
+* 
+* creating background image and patterns
+* -----------------------------------------------------------------------------
+*/
+#bg-image {
+    background: url(../images/bg.jpg) no-repeat center center;
+    background-size: cover !important;
+    position: fixed;
+    width: 100%;
+}
+
+#bg-pattern {
+    background: rgba(0, 0, 0, 0.2) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAcSURBVBhXYwCCTSACCcD5MAa6AtwCGFqhgGETAD+eBkN7dw+KAAAAAElFTkSuQmCC);
+    width: 100%;
+    position: relative;
+}
+
+    #bg-pattern.dark {
+        background: rgba(0, 0, 0, 0.6) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAcSURBVBhXYwCCTSACCcD5MAa6AtwCGFqhgGETAD+eBkN7dw+KAAAAAElFTkSuQmCC);
+    }
+
+.pattern-dark {
+    background: rgba(0,0,0, 0.3);
+}
+
+.pattern-light {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+#wrapper_mbYTP_bg-video {
+    position: relative;
+}
+
+/** 
+* 4.0 Logo
+* 
+* setting up logo text styling
+* -----------------------------------------------------------------------------
+*/
+.logo {
+    border: 1px solid #ffffff;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.logo-text {
+    font-family: Raleway;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-size: 28px;
+    display: inline-block;
+    padding-top: 25px;
+}
+
+    .logo-text .small-text {
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .logo-text .line {
+        width: 15%;
+        border-bottom: 1px solid #fff;
+        border-top: 0px solid #fff;
+        height: 5px;
+        overflow: hidden;
+        display: block;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+
+/** 
+* 5.0 Spacing
+* 
+* setting the spacing between content and container edges
+* -----------------------------------------------------------------------------
+*/
+.single-space {
+    height: 40px;
+    clear: both;
+}
+
+.double-space {
+    height: 80px;
+    clear: both;
+}
+
+/** 
+* 6.0 Headings
+* 
+* heading styles
+* -----------------------------------------------------------------------------
+*/
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    display: inline-block;
+}
+
+    h1 .line, h2 .line, h3 .line, h4 .line, h5 .line, h6 .line {
+        width: 15%;
+        border-bottom: 1px solid #fff;
+        border-top: 0px solid #fff;
+        height: 5px;
+        overflow: hidden;
+        display: block;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+
+#nt-title-container > ul > li {
+    list-style: none;
+}
+/** 
+* 7.0 Canvas
+* 
+* setting the styles for circular canvas objects
+* -----------------------------------------------------------------------------
+*/
+.canvas-container {
+    display: block;
+    position: relative;
+}
+
+    .canvas-container canvas {
+        width: 150px;
+        height: 150px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        z-index: 100;
+    }
+
+    .canvas-container .canvas-time {
+        position: absolute;
+        top: 0;
+        left: 0;
+        line-height: 150px;
+        width: 100%;
+        z-index: 110;
+    }
+
+.init-canvas {
+    display: none;
+    background-color: rgba(255, 255, 255, 0.4);
+    /*color: rgba(72, 202, 226, 0.6);*/
+}
+
+/** 
+* 8.0 Sections
+* 
+* styling the sections such as about, services, contact details
+* -----------------------------------------------------------------------------
+*/
+#about p, #services p, #contact-info, .sub-title {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.contact-details {
+    text-align: center;
+}
+
+    .contact-details p {
+    }
+
+
+/** 
+* 9.0 Twitter Feed Slider
+* 
+* styling the flexslider appearance for twitter feed
+* -----------------------------------------------------------------------------
+*/
+.flexslider {
+    border: none;
+    background: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+}
+
+
+.twitterfeed {
+    font-weight: 300;
+    font-family: Lato;
+    font-size: 24px;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+    .twitterfeed li span {
+        display: block;
+    }
+
+        .twitterfeed li span.at {
+            display: inline;
+        }
+
+        .twitterfeed li span a {
+            display: inline-block;
+            /*background-color: rgba(72, 202, 226, 0.2);*/
+            color: #fff;
+            padding: 1px;
+            margin: 1px;
+            transition: all 0.6s ease-in;
+            -webkit-transition: all 0.6s ease-in;
+            -moz-transition: all 0.6s ease-in;
+            -o-transition: all 0.6s ease-in;
+            -ms-transition: all 0.6s ease-in;
+        }
+
+            .twitterfeed li span a:hover {
+                /*background-color: rgba(72, 202, 226, 0.6);*/
+                text-decoration: none;
+            }
+
+    .twitterfeed .flex-control-nav {
+        bottom: -60px;
+    }
+
+        .twitterfeed .flex-control-nav li a {
+            border-radius: 0;
+            -moz-border-radius: 0;
+            -o-border-radius: 0;
+            -webkit-border-radius: 0;
+            width: 20px;
+            height: 2px;
+            overflow: hidden;
+        }
+
+            .twitterfeed .flex-control-nav li a {
+                background: #666;
+            }
+
+            .twitterfeed .flex-control-nav li a.flex-active {
+                background: #fff;
+            }
+
+    .twitterfeed .slides li {
+        height: 120px !important;
+        font-size: 18px;
+        text-align: center;
+    }
+
+
+@media (max-width: 768px) {
+    .twitterfeed .slides li {
+        font-size: 16px;
+    }
+}
+
+/** 
+* 10.0 Social Icons
+* 
+* styling the social icons: facebook, twitter, linked-in, pinterest and tumblr
+* -----------------------------------------------------------------------------
+*/
+.social a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    transition: all 0.6s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+}
+
+    .social a.fa-facebook:hover {
+        background-color: #395b9b;
+    }
+
+    .social a.fa-twitter:hover {
+        background-color: #20a9ed;
+    }
+
+    .social a.fa-linkedin:hover {
+        background-color: #117ba3;
+    }
+
+    .social a.fa-pinterest:hover {
+        background-color: #cf1f2a;
+    }
+
+    .social a.fa-tumblr:hover {
+        background-color: #325068;
+    }
+
+/** 
+* 11.0 Forms
+* 
+* setting up the look and feel of subscribe and contact form
+* -----------------------------------------------------------------------------
+*/
+#subscribe_form_message, #contact_form_message {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: Lato;
+}
+
+#contact_form .label-captcha {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#form_contact_us .error, #form_subscribe .error {
+    border: 1px solid #cc0000;
+}
+
+#form_contact_us input[type="text"], #form_contact_us textarea, #form_subscribe input[type="text"] {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
+}
+
+#form_contact_us label.error, #form_subscribe label.error {
+    font-weight: 300;
+    font-family: Lato;
+    font-size: 14px;
+    padding: 2px 5px;
+    background-color: #cc0000;
+    color: #fff;
+}
+
+    #form_contact_us label.error i, #form_subscribe label.error i {
+        margin-right: 2px;
+    }
+
+/** 
+* 12.0 Slider Effects
+* 
+* setting up zoom effect for slider images
+* -----------------------------------------------------------------------------
+*/
+#supersized li.activeslide img {
+    animation: zoomeffect 130s ease infinite;
+    -o-animation: zoomeffect 130s ease infinite;
+    -moz-animation: zoomeffect 130s ease infinite;
+    -webkit-animation: zoomeffect 130s ease infinite;
+}
+
+@keyframes zoomeffect {
+    from {
+        transform: scale(1) rotate(0deg);
+    }
+    to {
+        transform: scale(10) rotate(180deg);
+    }
+}
+
+@-o-keyframes zoomeffect {
+    from {
+        -o-transform: scale(1) rotate(0deg);
+    }
+    to {
+        -o-transform: scale(10) rotate(180deg);
+    }
+}
+
+@-moz-keyframes zoomeffect {
+    from {
+        -moz-transform: scale(1) rotate(0deg);
+    }
+    to {
+        -moz-transform: scale(10) rotate(180deg);
+    }
+}
+
+@-webkit-keyframes zoomeffect {
+    from {
+        -webkit-transform: scale(1) rotate(0deg);
+    }
+    to {
+        -webkit-transform: scale(10) rotate(180deg);
+    }
+}
+
+/** 
+* 13.0 Preloader
+* 
+* setting up the page preloader
+* -----------------------------------------------------------------------------
+*/
+#progress-back {
+    top: 0;
+    bottom: auto;
+}
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999; /* makes sure it stays on top */
+}
+
+#status {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50%; /* centers the loading animation horizontally one the screen */
+    top: 50%; /* centers the loading animation vertically one the screen */
+    margin: -50px 0 0 -50px;
+}

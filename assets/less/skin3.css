@@ -1,0 +1,43 @@
+#nav-scroll > li.active > a {
+  background: rgba(147, 201, 0, 0.6);
+}
+#nav-scroll > li > a:hover {
+  color: #93c900;
+}
+#header {
+  background-color: rgba(147, 201, 0, 0.1);
+}
+h1.logo {
+  color: #93c900;
+}
+.init-canvas {
+  color: rgba(147, 201, 0, 0.6);
+}
+#about .about-info .fa-circle,
+#services .services-info .fa-circle,
+#contact-info .contact-details .fa-square {
+  color: rgba(147, 201, 0, 0.6);
+}
+.twitterfeed li span a {
+  background-color: rgba(147, 201, 0, 0.2);
+}
+.twitterfeed li span a:hover {
+  background-color: rgba(147, 201, 0, 0.6);
+}
+#form_subscribe #btn_subscribe {
+  background-color: #80b000;
+  border-color: #6e9600;
+}
+#form_subscribe #btn_subscribe:hover {
+  background-color: #6e9600;
+}
+#form_contact_us #btn_send {
+  background-color: #80b000;
+  border-color: #6e9600;
+}
+#form_contact_us #btn_send:hover {
+  background-color: #6e9600;
+}
+#preloader {
+  background-color: #93c900;
+}
