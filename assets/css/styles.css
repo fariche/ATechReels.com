@@ -67,11 +67,11 @@ a, a:hover, a:focus {
     right: 0px;
 }
 
-    .navbar-toggle .icon-bar {
-        background-color: #fff;
-        height: 4px;
-        width: 26px;
-    }
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+    height: 4px;
+    width: 26px;
+}
 
 .nav-fixed-right {
     position: absolute;
@@ -114,9 +114,9 @@ a, a:hover, a:focus {
         width: auto;
     }
 
-        .nav-fixed-right.nav-pills > li {
-            float: left;
-        }
+    .nav-fixed-right.nav-pills > li {
+        float: left;
+    }
 }
 
 /** 
@@ -138,9 +138,9 @@ a, a:hover, a:focus {
     position: relative;
 }
 
-    #bg-pattern.dark {
-        background: rgba(0, 0, 0, 0.6) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAcSURBVBhXYwCCTSACCcD5MAa6AtwCGFqhgGETAD+eBkN7dw+KAAAAAElFTkSuQmCC);
-    }
+#bg-pattern.dark {
+    background: rgba(0, 0, 0, 0.6) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAcSURBVBhXYwCCTSACCcD5MAa6AtwCGFqhgGETAD+eBkN7dw+KAAAAAElFTkSuQmCC);
+}
 
 .pattern-dark {
     background: rgba(0,0,0, 0.3);
@@ -176,21 +176,21 @@ a, a:hover, a:focus {
     padding-top: 25px;
 }
 
-    .logo-text .small-text {
-        font-weight: 700;
-        text-transform: uppercase;
-    }
+.logo-text .small-text {
+    font-weight: 700;
+    text-transform: uppercase;
+}
 
-    .logo-text .line {
-        width: 15%;
-        border-bottom: 1px solid #fff;
-        border-top: 0px solid #fff;
-        height: 5px;
-        overflow: hidden;
-        display: block;
-        margin: 0 auto;
-        margin-top: 25px;
-    }
+.logo-text .line {
+    width: 15%;
+    border-bottom: 1px solid #fff;
+    border-top: 0px solid #fff;
+    height: 5px;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+}
 
 /** 
 * 5.0 Spacing
@@ -219,16 +219,16 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
 }
 
-    h1 .line, h2 .line, h3 .line, h4 .line, h5 .line, h6 .line {
-        width: 15%;
-        border-bottom: 1px solid #fff;
-        border-top: 0px solid #fff;
-        height: 5px;
-        overflow: hidden;
-        display: block;
-        margin: 0 auto;
-        margin-top: 5px;
-    }
+h1 .line, h2 .line, h3 .line, h4 .line, h5 .line, h6 .line {
+    width: 15%;
+    border-bottom: 1px solid #fff;
+    border-top: 0px solid #fff;
+    height: 5px;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+}
 
 #nt-title-container > ul > li {
     list-style: none;
@@ -244,23 +244,23 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 }
 
-    .canvas-container canvas {
-        width: 150px;
-        height: 150px;
-        position: relative;
-        top: 0px;
-        left: 0px;
-        z-index: 100;
-    }
+.canvas-container canvas {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+}
 
-    .canvas-container .canvas-time {
-        position: absolute;
-        top: 0;
-        left: 0;
-        line-height: 150px;
-        width: 100%;
-        z-index: 110;
-    }
+.canvas-container .canvas-time {
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 150px;
+    width: 100%;
+    z-index: 110;
+}
 
 .init-canvas {
     display: none;
@@ -283,8 +283,8 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-    .contact-details p {
-    }
+.contact-details p {
+}
 
 
 /** 
@@ -311,59 +311,59 @@ h1, h2, h3, h4, h5, h6 {
     font-style: italic;
 }
 
-    .twitterfeed li span {
-        display: block;
-    }
+.twitterfeed li span {
+    display: block;
+}
 
-        .twitterfeed li span.at {
-            display: inline;
-        }
+.twitterfeed li span.at {
+    display: inline;
+}
 
-        .twitterfeed li span a {
-            display: inline-block;
-            /*background-color: rgba(72, 202, 226, 0.2);*/
-            color: #fff;
-            padding: 1px;
-            margin: 1px;
-            transition: all 0.6s ease-in;
-            -webkit-transition: all 0.6s ease-in;
-            -moz-transition: all 0.6s ease-in;
-            -o-transition: all 0.6s ease-in;
-            -ms-transition: all 0.6s ease-in;
-        }
+.twitterfeed li span a {
+    display: inline-block;
+    /*background-color: rgba(72, 202, 226, 0.2);*/
+    color: #fff;
+    padding: 1px;
+    margin: 1px;
+    transition: all 0.6s ease-in;
+    -webkit-transition: all 0.6s ease-in;
+    -moz-transition: all 0.6s ease-in;
+    -o-transition: all 0.6s ease-in;
+    -ms-transition: all 0.6s ease-in;
+}
 
-            .twitterfeed li span a:hover {
-                /*background-color: rgba(72, 202, 226, 0.6);*/
-                text-decoration: none;
-            }
+.twitterfeed li span a:hover {
+    /*background-color: rgba(72, 202, 226, 0.6);*/
+    text-decoration: none;
+}
 
-    .twitterfeed .flex-control-nav {
-        bottom: -60px;
-    }
+.twitterfeed .flex-control-nav {
+    bottom: -60px;
+}
 
-        .twitterfeed .flex-control-nav li a {
-            border-radius: 0;
-            -moz-border-radius: 0;
-            -o-border-radius: 0;
-            -webkit-border-radius: 0;
-            width: 20px;
-            height: 2px;
-            overflow: hidden;
-        }
+.twitterfeed .flex-control-nav li a {
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -o-border-radius: 0;
+    -webkit-border-radius: 0;
+    width: 20px;
+    height: 2px;
+    overflow: hidden;
+}
 
-            .twitterfeed .flex-control-nav li a {
-                background: #666;
-            }
+.twitterfeed .flex-control-nav li a {
+    background: #666;
+}
 
-            .twitterfeed .flex-control-nav li a.flex-active {
-                background: #fff;
-            }
+.twitterfeed .flex-control-nav li a.flex-active {
+    background: #fff;
+}
 
-    .twitterfeed .slides li {
-        height: 120px !important;
-        font-size: 18px;
-        text-align: center;
-    }
+.twitterfeed .slides li {
+    height: 120px !important;
+    font-size: 18px;
+    text-align: center;
+}
 
 
 @media (max-width: 768px) {
@@ -392,25 +392,25 @@ h1, h2, h3, h4, h5, h6 {
     -ms-transition: all 0.3s ease-in;
 }
 
-    .social a.fa-facebook:hover {
-        background-color: #395b9b;
-    }
+.social a.fa-facebook:hover {
+    background-color: #395b9b;
+}
 
-    .social a.fa-twitter:hover {
-        background-color: #20a9ed;
-    }
+.social a.fa-twitter:hover {
+    background-color: #20a9ed;
+}
 
-    .social a.fa-linkedin:hover {
-        background-color: #117ba3;
-    }
+.social a.fa-linkedin:hover {
+    background-color: #117ba3;
+}
 
-    .social a.fa-pinterest:hover {
-        background-color: #cf1f2a;
-    }
+.social a.fa-pinterest:hover {
+    background-color: #cf1f2a;
+}
 
-    .social a.fa-tumblr:hover {
-        background-color: #325068;
-    }
+.social a.fa-tumblr:hover {
+    background-color: #325068;
+}
 
 /** 
 * 11.0 Forms
@@ -450,9 +450,9 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
-    #form_contact_us label.error i, #form_subscribe label.error i {
-        margin-right: 2px;
-    }
+#form_contact_us label.error i, #form_subscribe label.error i {
+    margin-right: 2px;
+}
 
 /** 
 * 12.0 Slider Effects
@@ -531,3 +531,66 @@ h1, h2, h3, h4, h5, h6 {
     top: 50%; /* centers the loading animation vertically one the screen */
     margin: -50px 0 0 -50px;
 }
+
+.white{
+    color: white;
+    text-decoration: none;
+    opacity:1.0;
+    box-shadow:none;
+    font-size: 20px;
+}
+
+.center-text{
+    font-family: fantasy;
+    padding: 0px 30px 0px 30px;
+    
+}
+.fun-text-blue-bright{
+    font-family: monospace;
+    font-size: 30px;
+    color: #006afe;
+    text-decoration: none;
+    pointer-events:none;
+}
+.fun-text-orange{
+    font-family: monospace;
+    font-size: 30px;
+    color: orange;
+    pointer-events:none;
+}
+.fun-text-blue{
+    font-family: monospace;
+    font-size: 30px;
+    color: #05f9fa;
+    pointer-events:none;
+}
+.fun-text-red{
+    font-family: monospace;
+    font-size: 30px;
+    color: red;
+    pointer-events:none;
+}
+.fun-text-violet{
+    font-family: monospace;
+    font-size: 30px;
+    color: violet;
+    pointer-events:none;
+}
+.fun-text-yellow{
+    font-family: monospace;
+    font-size: 30px;
+    color: yellow;
+    pointer-events:none;
+}
+.fun-text-green-yellow{
+    font-family: monospace;
+    font-size: 30px;
+    color: greenyellow;
+    text-decoration: underline;
+    pointer-events:none;
+}
+
+.center-form-text{
+    text-align: center;
+}
+

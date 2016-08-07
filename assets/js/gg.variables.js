@@ -9,7 +9,7 @@ if (validateParameters()) {
     // set countdown timer date-time
     // DD MMMM YYYY, hh:mm:ss 
     // 30 June 2013, 11:00:00'
-    var countdown_timer = '9 Nov 2014, 19:00:00';
+    var countdown_timer = '1 Oct 2016, 19:00:00';
 
     // set any one of the following features to true/false
     var show_slider = false;

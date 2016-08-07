@@ -1809,6 +1809,7 @@ select[multiple].input-sm {
 .input-lg {
   height: 46px;
   padding: 10px 16px;
+  width: 49%;
   font-size: 18px;
   line-height: 1.33;
   border-radius: 0px;
@@ -2321,6 +2322,8 @@ fieldset[disabled] .btn-link:focus {
   font-size: 18px;
   line-height: 1.33;
   border-radius: 0px;
+  width: 49%;
+  text-align: center;
 }
 .btn-sm,
 .btn-group-sm > .btn {
